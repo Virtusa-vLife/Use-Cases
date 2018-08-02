@@ -6,6 +6,7 @@ Once the most important features are found out, we used these features to merge 
 After the merging of the databases, we predict the total cost and the payable amount using the electronic health records of the patients.
 
 Files:-
+
 1)Analysis_of_claims_dataset is the python notebook used to perform the analysis of the insurance claims dataset
 
 2)Final_dataset_generation is the python notebook used to impute the total cost and payable amount into the electronicc health records.
