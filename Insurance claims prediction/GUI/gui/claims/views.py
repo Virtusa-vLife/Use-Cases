@@ -94,12 +94,13 @@ def process(request):
     total_cost,gap=max(total_cost,gap),min(total_cost,gap)
     payable = total_cost - gap
 
-    b=pd.DataFrame({'Source':['Total Cost',"Insurance","Payer"],"Amount":[total_cost,gap,total_cost-gap]})
+    b=pd.DataFrame({'Source':['Total Cost',"Paid by insurance","Paid by claimant"],"Amount":[total_cost,gap,total_cost-gap]})
     plt.figure(2, figsize=(14,10))
     the_grid = GridSpec(2, 2)
 
     plt.subplot(the_grid[0, 0],  title='')
     sns.barplot(x='Source',y='Amount',data=b,palette='Spectral')
+    plt.xlabel('')
     plt.subplot(the_grid[0, 1], title='')
 
     plt.pie(b["Amount"].iloc[1:],labels=b["Source"].iloc[1:],autopct='%1.1f%%')
