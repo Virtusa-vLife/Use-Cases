@@ -12,3 +12,25 @@ Files:-
 2)Final_dataset_generation is the python notebook used to impute the total cost and payable amount into the electronicc health records.
 
 3)Statistical_analysis_ehr_claims_final_dataset is the notebook used to perform statistical test and build machine learning models to predict the total cost of the treatment of the disease and the payable amount.
+
+To run the server, run the command python manage.py runserver (in the gui directory).
+You can access the gui by navigating to local host, port 8000. (127.0.0.1:8000)
+
+Python module requirements:-
+1)sklearn
+
+2)pandas
+
+3)numpy
+
+4)matplotlib
+
+5)seaborn
+
+6)Django
+
+For the analysis part, you will need these additional modules:-
+
+7)scipy
+
+8)statsmodels
