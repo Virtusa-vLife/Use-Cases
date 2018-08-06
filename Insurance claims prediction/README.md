@@ -17,6 +17,7 @@ To run the server, run the command python manage.py runserver (in the gui direct
 You can access the gui by navigating to local host, port 8000. (127.0.0.1:8000)
 
 Python module requirements:-
+
 1)sklearn
 
 2)pandas
