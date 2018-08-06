@@ -13,9 +13,6 @@ Files:-
 
 3)Statistical_analysis_ehr_claims_final_dataset is the notebook used to perform statistical test and build machine learning models to predict the total cost of the treatment of the disease and the payable amount.
 
-To run the server, run the command python manage.py runserver (in the gui directory).
-You can access the gui by navigating to local host, port 8000. (127.0.0.1:8000)
-
 Python module requirements:-
 
 1)sklearn
@@ -35,3 +32,15 @@ For the statistical analysis the following additional modules are required:-
 7)scipy
 
 8)statsmodels
+
+Steps to generate the dataset:-
+
+1)Analysis_of_claims_dataset will give an analysis of the insurance claims database and generate a csv file which will be used to merge with the electronic health records.
+
+2)Final_dataset_generation can be used to merge the insurance claims and the electronic records. This will generate the final dataset with the insurance costs imputed into the electronic health records.
+
+3)Statistical_analysis_ehr_claims_final_dataset is the python notebook used to analyse the final dataset and build the predictive models.
+
+4)The Django project used to create the server is located in the Gui folder. In order to run the server, browse to Gui folder(where manage.py file is located) and run the command "python manage.py runserver"
+
+5)Once the server has started, go to browser and access localhost port number 8000(127.0.0.1:8000). 
