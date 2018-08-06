@@ -33,7 +33,7 @@ For the statistical analysis the following additional modules are required:-
 
 8)statsmodels
 
-Steps to generate the dataset:-
+Steps to generate the dataset and run the user interface:-
 
 1)Analysis_of_claims_dataset will give an analysis of the insurance claims database and generate a csv file which will be used to merge with the electronic health records.
 
