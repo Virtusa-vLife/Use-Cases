@@ -30,7 +30,7 @@ Python module requirements:-
 
 6)Django
 
-For the analysis part, you will need these additional modules:-
+For the statistical analysis the following additional modules are required:-
 
 7)scipy
 
