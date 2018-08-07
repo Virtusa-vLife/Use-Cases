@@ -1,0 +1,37 @@
+Mammography research 
+
+Useful research papers: - 
+
+Three-Class Mammogram Classification Based on Descriptive CNN Features 
+
+Link : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5274695/ 
+
+Classification of mammograms for breast cancer detection using fusion of discrete cosine transform and discrete wavelet transform features (achieved 93% accuracy in three class classification) 
+
+Link: http://www.biomedres.info/biomedical-research/classification-of-mammograms-for-breast-cancer-detection-using-fusion-of-discrete-cosine-transform-and-discrete-wavelet-transform-.pdf 
+
+
+ 
+
+
+Business Benefit:- 
+
+Every year thousands of woman undergo painful and invasive surgeries to remove breast lesions that current diagnostic tools identify as of a high risk for cancer. The vast majority of these procedures reveal the lesions to be benign, so improving current detection and diagnosis tools is a major priority for many researchers. 
+
+Recent studies show that in UK the second most leading cause of deaths due to cancer in women is breast cancer. In UK every year around 55,000 women are diagnosed with the breast cancer that is equivalent of one person every 10 minutes. One woman out of eight in her life time has a chance to be diagnosed as a sufferer of breast cancer . Similar statistics are also shown in USA, with 231,000 estimated new cases for breast cancer in 2015. Breast cancer usually takes time to develop and symptoms are shown very late. As there is no effective way to cure later stage breast cancer, many lives can be saved if it can be detect at early stage. Therefore, for the early detection of breast cancer, it is recommended by America Cancer Society (ACS) that every woman who has a high risk factor of breast cancer should take screening test once in a year. 
+
+With the help of computer aided detection, doctors can more efficiently determine if a particular image is cancerous or not... 
+
+ 
+
+ 
+
+ 
+
+Usefull links :- 
+
+brats challenge : https://github.com/naldeborgh7575/brain_segmentation 
+
+Xray : https://github.com/ayush1997/Xvision  
+
+ 
