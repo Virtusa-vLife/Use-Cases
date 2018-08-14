@@ -1,0 +1,3 @@
+http://parselmouth.readthedocs.io/en/latest/examples/batch_processing.html
+http://www.fon.hum.uva.nl/praat/manual/Voice_6__Automating_voice_analysis_with_a_script.html
+http://www.fon.hum.uva.nl/praat/manual/Voice_2__Jitter.html
