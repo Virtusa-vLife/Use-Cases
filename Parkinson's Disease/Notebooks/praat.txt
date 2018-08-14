@@ -1,3 +1,29 @@
 http://parselmouth.readthedocs.io/en/latest/examples/batch_processing.html
 http://www.fon.hum.uva.nl/praat/manual/Voice_6__Automating_voice_analysis_with_a_script.html
 http://www.fon.hum.uva.nl/praat/manual/Voice_2__Jitter.html
+
+##########################################################
+from parselmouth.praat import call
+import parselmouth
+
+data_path = '../Data/'
+sound = parselmouth.Sound(data_path+'test.wav')
+harmonicity = sound.to_harmonicity()
+
+harmonicity.values.mean()
+
+help(sound)
+
+from parselmouth.praat import call
+
+manipulation = call(sound, "To Manipulation", 0.001, 75, 600)
+
+pitch_tier = call(manipulation, "Extract pitch tier")
+
+call(pitch_tier, "Multiply frequencies", sound.xmin, sound.xmax, 2)
+
+call([pitch_tier, manipulation], "Replace pitch tier")
+sound_octave_up = call(manipulation, "Get resynthesis (overlap-add)")
+
+pitch_tier.
+
