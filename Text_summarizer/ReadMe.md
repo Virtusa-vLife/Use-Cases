@@ -1,4 +1,4 @@
-# Seq2Seq
+# Text Summarizer Seq2Seq Deep Learning Model
 ##### The seq2seq models encodes the content of an article (encoder input) and one character (decoder input) from the summarized text to predict the next character in the summarized text
 
 ##### The implementation can be found in keras_text_summarization/library/seq2seq.py
@@ -19,10 +19,10 @@
 ## Train Deep Learning model
 ##### To train a deep learning model, say Seq2SeqSummarizer, run the following commands:
 
-pip install requirements.txt
+> pip install requirements.txt
 
-cd demo
-python seq2seq_train.py 
+> cd demo
+> python seq2seq_train.py 
 
 
 ##### After the training is completed, the trained models will be saved as cf-v1-. in the video_classifier/demo/models.
@@ -30,5 +30,5 @@ python seq2seq_train.py
 ## Summarization
 #### To use the trained deep learning model to summarize an article, run following commands - 
  
-cd demo
-python seq2seq_predict.py
+> cd demo
+> python seq2seq_predict.py
