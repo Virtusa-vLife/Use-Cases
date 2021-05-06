@@ -9,7 +9,7 @@ colorama==0.4.1
 cycler==0.10.0
 docutils==0.15.2
 Flask==1.1.1
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 flask-restplus==0.13.0
 gast==0.3.2
 google-pasta==0.1.8
